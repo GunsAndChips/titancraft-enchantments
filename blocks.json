@@ -1,0 +1,905 @@
+{
+    "blocks": {
+        "grass_block": {
+            "extract": "short_grass",
+            "green_thumb": "moss",
+            "pulverise": false
+        },
+        "rooted_dirt": {
+            "extract": "hanging_roots",
+            "green_thumb": false,
+            "pulverise": false
+        },
+        "dirt": {
+            "hydrate": "mud",
+            "green_thumb": "rooted_dirt",
+            "pulverise": false
+        },
+        "beacon": {
+            "extract": "nether_star",
+            "forge": false,
+            "green_thumb": false,
+            "bleach": false
+        },
+        "stone": {
+            "forge": {
+                "Silk Touch": "smooth_stone",
+                "Other": "stone"
+            },
+            "green_thumb": false,
+            "chisel": "stone_bricks"
+        },
+        "obsidian": {
+            "hydrate": false
+        },
+        "stone_bricks": {
+            "forge": false,
+            "green_thumb": "mossy_stone_bricks",
+            "chisel": false
+        },
+        "cobblestone": {
+            "forge": "stone",
+            "green_thumb": "mossy_cobblestone",
+            "pulverise": "gravel"
+        },
+        "wet_sponge": {
+            "forge": "sponge"
+        },
+        "iron_ore": {
+            "forge": {
+                "Silk Touch": "iron_ingot",
+                "Other": "iron_ingot"
+            }
+        },
+        "netherrack": {
+            "extract": false,
+            "forge": "nether_brick",
+            "green_thumb": false,
+            "chisel": false
+        },
+        "coal_ore": {
+            "forge": {
+                "Silk Touch": "coal",
+                "Other": "coal"
+            }
+        },
+        "sand": {
+            "forge": "glass"
+        },
+        "white_concrete_powder": {
+            "extract": "white_dye"
+        },
+        "orange_concrete_powder": {
+            "extract": "orange_dye"
+        },
+        "magenta_concrete_powder": {
+            "extract": "magenta_dye"
+        },
+        "light_blue_concrete_powder": {
+            "extract": "light_blue_dye"
+        },
+        "yellow_concrete_powder": {
+            "extract": "yellow_dye"
+        },
+        "lime_concrete_powder": {
+            "extract": "lime_dye"
+        },
+        "pink_concrete_powder": {
+            "extract": "pink_dye"
+        },
+        "gray_concrete_powder": {
+            "extract": "gray_dye"
+        },
+        "light_gray_concrete_powder": {
+            "extract": "light_gray_dye"
+        },
+        "cyan_concrete_powder": {
+            "extract": "cyan_dye"
+        },
+        "purple_concrete_powder": {
+            "extract": "purple_dye"
+        },
+        "blue_concrete_powder": {
+            "extract": "blue_dye"
+        },
+        "brown_concrete_powder": {
+            "extract": "brown_dye"
+        },
+        "green_concrete_powder": {
+            "extract": "green_dye"
+        },
+        "red_concrete_powder": {
+            "extract": "red_dye"
+        },
+        "black_concrete_powder": {
+            "extract": "black_dye"
+        },
+        "terracotta": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false,
+            "chisel": false
+        },
+        "white_terracotta": {
+            "forge": "white_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "orange_terracotta": {
+            "forge": "orange_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "magenta_terracotta": {
+            "forge": "magenta_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "light_blue_terracotta": {
+            "forge": "light_blue_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "yellow_terracotta": {
+            "forge": "yellow_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "lime_terracotta": {
+            "forge": "lime_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "pink_terracotta": {
+            "forge": "pink_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "gray_terracotta": {
+            "forge": "gray_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "light_gray_terracotta": {
+            "forge": "light_gray_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "cyan_terracotta": {
+            "forge": "cyan_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "purple_terracotta": {
+            "forge": "purple_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "blue_terracotta": {
+            "forge": "blue_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "brown_terracotta": {
+            "forge": "brown_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "green_terracotta": {
+            "forge": "green_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "red_terracotta": {
+            "forge": "red_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "black_terracotta": {
+            "forge": "black_glazed_terracotta",
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "sandstone": {
+            "extract": false,
+            "forge": "smooth_sandstone",
+            "green_thumb": false,
+            "chisel": "cut_sandstone"
+        },
+        "red_sandstone": {
+            "forge": "smooth_red_sandstone",
+            "bleach": false,
+            "chisel": "cut_red_sandstone"
+        },
+        "glass": {
+            "forge": false
+        },
+        "pumpkin": {
+            "extract": "pumpkin_seeds",
+            "green_thumb": false,
+            "chisel": "carved_pumpkin"
+        },
+        "melon": {
+            "extract": "melon_seeds"
+        },
+        "dead_bush": {
+            "green_thumb": [
+                "flowering_azalea",
+                "cherry_sapling",
+                "birch_sapling",
+                "oak_sapling",
+                "jungle_sapling",
+                "spruce_sapling"
+            ]
+        },
+        "spruce_sapling": {
+            "forge": false,
+            "green_thumb": false
+        },
+        "azalea_leaves": {
+            "forge": false,
+            "green_thumb": false
+        },
+        "mangrove_roots": {
+            "extract": false,
+            "green_thumb": false,
+            "chisel": false
+        },
+        "lilac": {
+            "green_thumb": false
+        },
+        "rose_bush": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false,
+            "chisel": false
+        },
+        "sunflower": {
+            "green_thumb": false
+        },
+        "wither_rose": {
+            "green_thumb": false,
+            "bleach": false
+        },
+        "honey_block": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false,
+            "bleach": false,
+            "chisel": false
+        },
+        "white_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "orange_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "magenta_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "light_blue_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "yellow_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "lime_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "pink_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "gray_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "light_gray_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "cyan_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "purple_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "blue_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "brown_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "green_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "red_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "black_glazed_terracotta": {
+            "bleach": "terracotta",
+            "chisel": false
+        },
+        "gravel": {
+            "pulverise": "sand"
+        },
+        "red_sand": {
+            "pulverise": false
+        },
+        "oak_log": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "oak_planks"
+            },
+            "chisel": "stripped_oak_log"
+        },
+        "spruce_log": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "spruce_planks"
+            },
+            "chisel": "stripped_spruce_log"
+        },
+        "birch_log": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "birch_planks"
+            },
+            "chisel": "stripped_birch_log"
+        },
+        "jungle_log": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "jungle_planks"
+            },
+            "chisel": "stripped_jungle_log"
+        },
+        "acacia_log": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "acacia_planks"
+            },
+            "chisel": "stripped_acacia_log"
+        },
+        "dark_oak_log": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "dark_oak_planks"
+            },
+            "chisel": "stripped_dark_oak_log"
+        },
+        "mangrove_log": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "mangrove_planks"
+            },
+            "chisel": "stripped_mangrove_log"
+        },
+        "cherry_log": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "cherry_planks"
+            },
+            "chisel": "stripped_cherry_log"
+        },
+        "crimson_stem": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "crimson_planks"
+            },
+            "chisel": "stripped_crimson_stem"
+        },
+        "warped_stem": {
+            "bleach": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "warped_planks"
+            },
+            "chisel": "stripped_warped_stem"
+        },
+        "bamboo_block": {
+            "pulverise": {
+                "quantity": [
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "item": "bamboo"
+            }
+        },
+        "stripped_bamboo_block": {
+            "pulverise": {
+                "quantity": [
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "item": "bamboo"
+            }
+        },
+        "stripped_oak_log": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "oak_planks"
+            }
+        },
+        "stripped_spruce_log": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "spruce_planks"
+            }
+        },
+        "stripped_birch_log": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "birch_planks"
+            }
+        },
+        "stripped_jungle_log": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "jungle_planks"
+            }
+        },
+        "stripped_acacia_log": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "acacia_planks"
+            }
+        },
+        "stripped_dark_oak_log": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "dark_oak_planks"
+            }
+        },
+        "stripped_mangrove_log": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "mangrove_planks"
+            }
+        },
+        "stripped_cherry_log": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "cherry_planks"
+            }
+        },
+        "stripped_crimson_stem": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "crimson_planks"
+            }
+        },
+        "stripped_warped_stem": {
+            "pulverise": {
+                "quantity": 4,
+                "item": "warped_planks"
+            }
+        },
+        "oak_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "spruce_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "birch_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "jungle_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "acacia_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "dark_oak_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "mangrove_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "cherry_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "crimson_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "warped_planks": {
+            "bleach": false,
+            "pulverise": false
+        },
+        "bamboo_mosaic": {
+            "extract": false,
+            "chisel": false
+        },
+        "tuff": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false,
+            "bleach": false,
+            "chisel": false
+        },
+        "dripstone_block": {
+            "forge": false,
+            "green_thumb": false,
+            "bleach": false
+        },
+        "pearlescent_froglight": {
+            "green_thumb": false,
+            "pulverise": false
+        },
+        "verdant_froglight": {
+            "green_thumb": false,
+            "pulverise": false
+        },
+        "ochre_froglight": {
+            "green_thumb": false,
+            "pulverise": false
+        },
+        "big_dripleaf": {
+            "green_thumb": "small_dripleaf"
+        },
+        "sea_pickle": {
+            "forge": "lime_dye",
+            "green_thumb": false
+        },
+        "candle": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false,
+            "bleach": false,
+            "pulverise": false
+        },
+        "white_candle": {
+            "extract": "white_dye",
+            "bleach": "candle"
+        },
+        "orange_candle": {
+            "extract": "orange_dye",
+            "bleach": "candle"
+        },
+        "magenta_candle": {
+            "extract": "magenta_dye",
+            "bleach": "candle"
+        },
+        "light_blue_candle": {
+            "extract": "light_blue_dye",
+            "bleach": "candle"
+        },
+        "yellow_candle": {
+            "extract": "yellow_dye",
+            "bleach": "candle"
+        },
+        "lime_candle": {
+            "extract": "lime_dye",
+            "bleach": "candle"
+        },
+        "pink_candle": {
+            "extract": "pink_dye",
+            "bleach": "candle"
+        },
+        "gray_candle": {
+            "extract": "gray_dye",
+            "bleach": "candle"
+        },
+        "light_gray_candle": {
+            "extract": "light_gray_dye",
+            "bleach": "candle"
+        },
+        "cyan_candle": {
+            "extract": "cyan_dye",
+            "bleach": "candle"
+        },
+        "purple_candle": {
+            "extract": "purple_dye",
+            "bleach": "candle"
+        },
+        "blue_candle": {
+            "extract": "blue_dye",
+            "bleach": "candle"
+        },
+        "brown_candle": {
+            "extract": "brown_dye",
+            "bleach": "candle"
+        },
+        "green_candle": {
+            "extract": "green_dye",
+            "bleach": "candle"
+        },
+        "red_candle": {
+            "extract": "red_dye",
+            "bleach": "candle"
+        },
+        "black_candle": {
+            "extract": "black_dye",
+            "bleach": "candle"
+        },
+        "white_wool": {
+            "extract": "white_dye",
+            "green_thumb": false,
+            "bleach": false
+        },
+        "orange_wool": {
+            "extract": "orange_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "magenta_wool": {
+            "extract": "magenta_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "light_blue_wool": {
+            "extract": "light_blue_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "yellow_wool": {
+            "extract": "yellow_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "lime_wool": {
+            "extract": "lime_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "pink_wool": {
+            "extract": "pink_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "gray_wool": {
+            "extract": "gray_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "light_gray_wool": {
+            "extract": "light_gray_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "cyan_wool": {
+            "extract": "cyan_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "purple_wool": {
+            "extract": "purple_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "blue_wool": {
+            "extract": "blue_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "brown_wool": {
+            "extract": "brown_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "green_wool": {
+            "extract": "green_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "red_wool": {
+            "extract": "red_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "black_wool": {
+            "extract": "black_dye",
+            "green_thumb": false,
+            "bleach": "white_wool"
+        },
+        "deepslate_bricks": {
+            "forge": false,
+            "chisel": "deepslate_tiles"
+        },
+        "deepslate_tiles": {
+            "forge": false
+        },
+        "polished_blackstone_bricks": {
+            "forge": "cracked_polished_blackstone_bricks",
+            "green_thumb": false,
+            "chisel": false
+        },
+        "gilded_blackstone": {
+            "forge": false,
+            "green_thumb": false
+        },
+        "tube_coral_block": {
+            "forge": false,
+            "green_thumb": false,
+            "bleach": "dead_tube_coral_block"
+        },
+        "brain_coral_block": {
+            "forge": false,
+            "green_thumb": false,
+            "bleach": "dead_brain_coral_block"
+        },
+        "bubble_coral_block": {
+            "forge": false,
+            "green_thumb": false,
+            "bleach": "dead_bubble_coral_block"
+        },
+        "fire_coral_block": {
+            "forge": false,
+            "green_thumb": false,
+            "bleach": "dead_fire_coral_block"
+        },
+        "horn_coral_block": {
+            "forge": false,
+            "green_thumb": false,
+            "bleach": "dead_horn_coral_block"
+        },
+        "dead_tube_coral_block": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false
+        },
+        "dead_brain_coral_block": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false
+        },
+        "dead_bubble_coral_block": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false
+        },
+        "dead_fire_coral_block": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false
+        },
+        "dead_horn_coral_block": {
+            "extract": false,
+            "forge": false,
+            "green_thumb": false
+        },
+        "deepslate": {
+            "forge": "deepslate"
+        },
+        "nether_wart_block": {
+            "extract": false,
+            "pulverise": {
+                "quantity": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                "item": "nether_wart"
+            }
+        },
+        "warped_wart_block": {
+            "extract": false,
+            "pulverise": false
+        },
+        "sandstone_stairs": {
+            "forge": "smooth_sandstone_stairs"
+        },
+        "sandstone_slab": {
+            "forge": false
+        },
+        "red_sandstone_stairs": {
+            "forge": "smooth_red_sandstone_stairs"
+        },
+        "red_sandstone_slab": {
+            "forge": false
+        },
+        "iron_block": {
+            "forge": false,
+            "green_thumb": false,
+            "bleach": false
+        },
+        "white_concrete": {
+            "bleach": false
+        },
+        "orange_concrete": {
+            "bleach": "white_concrete"
+        },
+        "magenta_concrete": {
+            "bleach": "white_concrete"
+        },
+        "light_blue_concrete": {
+            "bleach": "white_concrete"
+        },
+        "yellow_concrete": {
+            "bleach": "white_concrete"
+        },
+        "lime_concrete": {
+            "bleach": "white_concrete"
+        },
+        "pink_concrete": {
+            "bleach": "white_concrete"
+        },
+        "gray_concrete": {
+            "bleach": "white_concrete"
+        },
+        "light_gray_concrete": {
+            "bleach": "white_concrete"
+        },
+        "cyan_concrete": {
+            "bleach": "white_concrete"
+        },
+        "purple_concrete": {
+            "bleach": "white_concrete"
+        },
+        "blue_concrete": {
+            "bleach": "white_concrete"
+        },
+        "brown_concrete": {
+            "bleach": "white_concrete"
+        },
+        "green_concrete": {
+            "bleach": "white_concrete"
+        },
+        "red_concrete": {
+            "bleach": "white_concrete"
+        },
+        "black_concrete": {
+            "bleach": "white_concrete"
+        },
+        "blackstone": {
+            "chisel": false
+        },
+        "polished_blackstone": {
+            "chisel": false
+        },
+        "packed_mud": {
+            "chisel": "mud_bricks"
+        },
+        "moss": {
+            "extract": false,
+            "chisel": false
+        },
+        "cobbled_deepslate": {
+            "extract": false,
+            "chisel": false
+        },
+        "end_stone": {
+            "chisel": "end_stone_bricks"
+        },
+        "purpur_block": {
+            "extract": false,
+            "chisel": "purpur_pillar"
+        }
+    }
+}
