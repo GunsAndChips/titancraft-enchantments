@@ -22,22 +22,30 @@
             "bleach": false
         },
         "stone": {
+            "hydrate": false,
             "forge": {
                 "Silk Touch": "smooth_stone",
                 "Other": "stone"
             },
             "green_thumb": false,
+            "pulverise": false,
             "chisel": "stone_bricks"
         },
         "obsidian": {
-            "hydrate": false
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": false,
+            "chisel": false
         },
         "stone_bricks": {
+            "hydrate": false,
             "forge": false,
             "green_thumb": "mossy_stone_bricks",
+            "pulverise": "cobblestone",
             "chisel": false
         },
         "cobblestone": {
+            "hydrate": false,
             "forge": "stone",
             "green_thumb": "mossy_cobblestone",
             "pulverise": "gravel"
@@ -57,11 +65,50 @@
             "green_thumb": false,
             "chisel": false
         },
+        "nether_bricks": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "item": "nether_brick"
+            },
+            "chisel": "chiseled_nether_bricks"
+        },
+        "cracked_nether_bricks": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "item": "nether_brick"
+            },
+            "chisel": false
+        },
         "coal_ore": {
             "forge": {
                 "Silk Touch": "coal",
                 "Other": "coal"
             }
+        },
+        "coal_block": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": [
+                    3
+                ],
+                "item": "coal"
+            },
+            "chisel": false
         },
         "sand": {
             "forge": "glass"
@@ -116,86 +163,136 @@
         },
         "terracotta": {
             "extract": false,
-            "forge": false,
+            "hydrate": "clay",
             "green_thumb": false,
+            "pulverise": false,
+            "forge": false,
             "chisel": false
         },
         "white_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "white_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "orange_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "orange_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "magenta_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "magenta_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "light_blue_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "light_blue_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "yellow_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "yellow_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "lime_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "lime_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "pink_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "pink_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "gray_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "gray_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "light_gray_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "light_gray_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "cyan_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "cyan_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "purple_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "purple_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "blue_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "blue_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "brown_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "brown_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "green_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "green_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "red_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "red_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
         },
         "black_terracotta": {
+            "hydrate": "clay",
+            "green_thumb": false,
+            "pulverise": false,
             "forge": "black_glazed_terracotta",
             "bleach": "terracotta",
             "chisel": false
@@ -212,6 +309,10 @@
             "chisel": "cut_red_sandstone"
         },
         "glass": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": false,
+            "chisel": false,
             "forge": false
         },
         "pumpkin": {
@@ -242,6 +343,7 @@
         },
         "mangrove_roots": {
             "extract": false,
+            "hydrate": false,
             "green_thumb": false,
             "chisel": false
         },
@@ -430,6 +532,8 @@
             }
         },
         "stripped_bamboo_block": {
+            "hydrate": false,
+            "green_thumb": "bamboo_block",
             "pulverise": {
                 "quantity": [
                     4,
@@ -441,114 +545,170 @@
             }
         },
         "stripped_oak_log": {
+            "hydrate": false,
+            "green_thumb": "oak_log",
             "pulverise": {
                 "quantity": 4,
                 "item": "oak_planks"
             }
         },
         "stripped_spruce_log": {
+            "hydrate": false,
+            "green_thumb": "spruce_log",
             "pulverise": {
                 "quantity": 4,
                 "item": "spruce_planks"
             }
         },
         "stripped_birch_log": {
+            "hydrate": false,
+            "green_thumb": "birch_log",
             "pulverise": {
                 "quantity": 4,
                 "item": "birch_planks"
             }
         },
         "stripped_jungle_log": {
+            "hydrate": false,
+            "green_thumb": "jungle_log",
             "pulverise": {
                 "quantity": 4,
                 "item": "jungle_planks"
             }
         },
         "stripped_acacia_log": {
+            "hydrate": false,
+            "green_thumb": "acacia_log",
             "pulverise": {
                 "quantity": 4,
                 "item": "acacia_planks"
             }
         },
         "stripped_dark_oak_log": {
+            "hydrate": false,
+            "green_thumb": "dark_oak_log",
             "pulverise": {
                 "quantity": 4,
                 "item": "dark_oak_planks"
             }
         },
         "stripped_mangrove_log": {
+            "hydrate": false,
+            "green_thumb": "mangrove_log",
             "pulverise": {
                 "quantity": 4,
                 "item": "mangrove_planks"
             }
         },
         "stripped_cherry_log": {
+            "hydrate": false,
+            "green_thumb": "cherry_log",
             "pulverise": {
                 "quantity": 4,
                 "item": "cherry_planks"
             }
         },
         "stripped_crimson_stem": {
+            "hydrate": false,
+            "green_thumb": "crimson_stem",
             "pulverise": {
                 "quantity": 4,
                 "item": "crimson_planks"
             }
         },
         "stripped_warped_stem": {
+            "hydrate": false,
+            "green_thumb": "warped_stem",
             "pulverise": {
                 "quantity": 4,
                 "item": "warped_planks"
             }
         },
         "oak_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "spruce_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "birch_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "jungle_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "acacia_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "dark_oak_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "mangrove_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "cherry_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "crimson_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "warped_planks": {
+            "hydrate": false,
+            "green_thumb": false,
+            "bleach": false,
+            "pulverise": false
+        },
+        "bamboo_planks": {
+            "hydrate": false,
+            "green_thumb": false,
             "bleach": false,
             "pulverise": false
         },
         "bamboo_mosaic": {
+            "hydrate": false,
+            "green_thumb": false,
             "extract": false,
             "chisel": false
         },
         "tuff": {
             "extract": false,
+            "hydrate": false,
             "forge": false,
             "green_thumb": false,
             "bleach": false,
+            "pulverise": "cobblestone",
+            "chisel": false
+        },
+        "chiseled_tuff": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "tuff",
             "chisel": false
         },
         "dripstone_block": {
@@ -727,11 +887,18 @@
             "bleach": "white_wool"
         },
         "deepslate_bricks": {
+            "hydrate": false,
             "forge": false,
+            "green_thumb": false,
+            "pulverise": "cobbled_deepslate",
             "chisel": "deepslate_tiles"
         },
         "deepslate_tiles": {
-            "forge": false
+            "hydrate": false,
+            "forge": false,
+            "green_thumb": false,
+            "pulverise": "cobbled_deepslate",
+            "chisel": false
         },
         "polished_blackstone_bricks": {
             "forge": "cracked_polished_blackstone_bricks",
@@ -793,6 +960,10 @@
             "green_thumb": false
         },
         "deepslate": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": false,
+            "chisel": false,
             "forge": "deepslate"
         },
         "nether_wart_block": {
@@ -825,57 +996,192 @@
             "forge": false
         },
         "iron_block": {
+            "hydrate": false,
+            "pulverise": {
+                "quantity": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "item": "iron_ingot"
+            },
+            "chisel": false,
             "forge": false,
             "green_thumb": false,
             "bleach": false
         },
-        "white_concrete": {
+        "iron_bars": {
+            "hydrate": false,
+            "pulverise": {
+                "quantity": [
+                    3
+                ],
+                "item": "iron_nugget"
+            },
+            "chisel": false,
+            "forge": false,
+            "green_thumb": false,
             "bleach": false
         },
+        "gold_block": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": [
+                    1,
+                    2,
+                    3,
+                    5,
+                    6,
+                    7
+                ],
+                "item": "gold_ingot"
+            },
+            "chisel": false
+        },
+        "raw_gold_block": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": [
+                    4
+                ],
+                "item": "raw_gold"
+            },
+            "chisel": false
+        },
+        "diamond_block": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": [
+                    2,
+                    6
+                ],
+                "item": "diamond"
+            },
+            "chisel": false
+        },
+        "ancient_debris": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": false,
+            "chisel": false
+        },
+        "white_concrete": {
+            "bleach": false,
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "white_concrete_powder",
+            "chisel": false
+        },
         "orange_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "orange_concrete_powder",
+            "chisel": false
         },
         "magenta_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "magenta_concrete_powder",
+            "chisel": false
         },
         "light_blue_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "light_blue_concrete_powder",
+            "chisel": false
         },
         "yellow_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "yellow_concrete_powder",
+            "chisel": false
         },
         "lime_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "lime_concrete_powder",
+            "chisel": false
         },
         "pink_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "pink_concrete_powder",
+            "chisel": false
         },
         "gray_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "gray_concrete_powder",
+            "chisel": false
         },
         "light_gray_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "light_gray_concrete_powder",
+            "chisel": false
         },
         "cyan_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "cyan_concrete_powder",
+            "chisel": false
         },
         "purple_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "purple_concrete_powder",
+            "chisel": false
         },
         "blue_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "blue_concrete_powder",
+            "chisel": false
         },
         "brown_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "brown_concrete_powder",
+            "chisel": false
         },
         "green_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "green_concrete_powder",
+            "chisel": false
         },
         "red_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "red_concrete_powder",
+            "chisel": false
         },
         "black_concrete": {
-            "bleach": "white_concrete"
+            "bleach": "white_concrete",
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "black_concrete_powder",
+            "chisel": false
         },
         "blackstone": {
             "chisel": false
@@ -884,7 +1190,16 @@
             "chisel": false
         },
         "packed_mud": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "dirt",
             "chisel": "mud_bricks"
+        },
+        "mud_bricks": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "packed_mud",
+            "chisel": false
         },
         "moss": {
             "extract": false,
@@ -892,7 +1207,10 @@
         },
         "cobbled_deepslate": {
             "extract": false,
-            "chisel": false
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": false,
+            "chisel": "polished_deepslate"
         },
         "end_stone": {
             "chisel": "end_stone_bricks"
@@ -900,6 +1218,321 @@
         "purpur_block": {
             "extract": false,
             "chisel": "purpur_pillar"
+        },
+        "prismarine": {
+            "extract": false,
+            "chisel": false
+        },
+        "prismarine_bricks": {
+            "extract": false,
+            "chisel": false
+        },
+        "mycelium": {
+            "extract": "brown_mushroom"
+        },
+        "oak_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "spruce_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "birch_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "jungle_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "acacia_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "dark_oak_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "mangrove_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "cherry_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "crimson_hyphae": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "warped_hyphae": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "stripped_oak_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "oak_wood"
+        },
+        "stripped_spruce_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "spruce_wood"
+        },
+        "stripped_birch_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "birch_wood"
+        },
+        "stripped_jungle_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "jungle_wood"
+        },
+        "stripped_acacia_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "acacia_wood"
+        },
+        "stripped_dark_oak_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "dark_oak_wood"
+        },
+        "stripped_mangrove_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "mangrove_wood"
+        },
+        "stripped_cherry_wood": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "cherry_wood"
+        },
+        "stripped_crimson_hyphae": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "crimson_hyphae"
+        },
+        "stripped_warped_hyphae": {
+            "extract": false,
+            "hydrate": false,
+            "green_thumb": "warped_hyphae"
+        },
+        "polished_deepslate": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "cobbled_deepslate",
+            "chisel": "deepslate_bricks"
+        },
+        "diorite": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "cobblestone",
+            "chisel": "polished_diorite"
+        },
+        "granite": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "cobblestone",
+            "chisel": "polished_granite"
+        },
+        "andesite": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "cobblestone",
+            "chisel": "polished_andesite"
+        },
+        "basalt": {
+            "chisel": "polished_basalt",
+            "forge": "smooth_basalt"
+        },
+        "dried_kelp_block": {
+            "pulverise": {
+                "quantity": [
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ],
+                "item": "dried_kelp"
+            }
+        },
+        "quartz_block": {
+            "extract": "quartz"
+        },
+        "potatoes": {
+            "forge": "baked_potato"
+        },
+        "short_grass": {
+            "hydrate": "seagrass"
+        },
+        "fern": {
+            "hydrate": "kelp"
+        },
+        "furnace": {
+            "green_thumb": false,
+            "pulverise": "cobblestone",
+            "chisel": false
+        },
+        "mossy_cobblestone": {
+            "green_thumb": false
+        },
+        "smooth_stone": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "cobblestone",
+            "chisel": false
+        },
+        "polished_granite": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "granite",
+            "chisel": false
+        },
+        "magma_block": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "magma_cream",
+            "chisel": false
+        },
+        "waxed_copper_block": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": [
+                    3,
+                    4,
+                    7
+                ],
+                "item": "copper_ingot"
+            },
+            "chisel": false
+        },
+        "waxed_oxidized_cut_copper": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": 2,
+                "item": "copper_ingot"
+            },
+            "chisel": false
+        },
+        "waxed_oxidized_copper_grate": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": 2,
+                "item": "copper_ingot"
+            },
+            "chisel": false
+        },
+        "bricks": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": 4,
+                "item": "brick"
+            },
+            "chisel": false
+        },
+        "lodestone": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "quantity": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "item": "cobblestone"
+            },
+            "chisel": false
+        },
+        "caludron": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": false,
+            "chisel": false
+        },
+        "anvil": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "chipped_anvil",
+            "chisel": false
+        },
+        "chipped_anvil": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "damaged_anvil",
+            "chisel": false
+        },
+        "damaged_anvil": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "",
+            "chisel": false
+        },
+        "campfire": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "note_block": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "barrel": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "chest": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "chiseled_bookshelf": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "bookshelf": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "composter": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "cartography_table": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "ladder": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "crafting_table": {
+            "hydrate": false,
+            "green_thumb": false
+        },
+        "smithing_table": {
+            "hydrate": false,
+            "green_thumb": false
         }
     }
 }
