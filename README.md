@@ -23,10 +23,11 @@ The tool enchantments are documented in this format:
         "block_1": {
             "extract": "grass", // an item name indicates 1 of these items is dropped
             "hydrate": false, // false indicates that the enchantment has no effect, i.e. the block drops what it would've without the enchantment
-            "forge": "", // "" (an empty string) indicates that this enchantment causes the block to drop *nothing*, where it would normally drop something (e.g. using the `pulverise` enchantment on a `damaged_anvil`)
+            "forge": "", // "" (an empty string) indicates that this enchantment causes the block to drop *nothing*, where it would normally drop something (e.g. using the pulverise enchantment on a damaged_anvil)
             "green_thumb": {
                 "quantity": 2, // a quantity indicates that more than one item is dropped
-                "item": "nether_star"
+                "item": "nether_star",
+                "bug_tracker_number": 12 // a bug_tracker_number indicates that this drop is likely a bug/unintended, and the number here indicates the number for the related issue in the Titancraft Bug Tracker (https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues)
             },
             "bleach": [ // an array of items indicates that a random item from the list could drop (does not guarrantee all items have an equal chance of dropping)
                 "iron_nugget",

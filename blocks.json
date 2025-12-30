@@ -8,12 +8,18 @@
         "rooted_dirt": {
             "extract": "hanging_roots",
             "green_thumb": false,
-            "pulverise": false
+            "pulverise": false,
+            "chisel": false
         },
         "dirt": {
             "hydrate": "mud",
             "green_thumb": "rooted_dirt",
-            "pulverise": false
+            "pulverise": false,
+            "chisel": false
+        },
+        "coarse_dirt": {
+            "pulverise": "gravel",
+            "chisel": false
         },
         "beacon": {
             "extract": "nether_star",
@@ -160,6 +166,17 @@
         },
         "black_concrete_powder": {
             "extract": "black_dye"
+        },
+        "clay": {
+            "pulverise": {
+                "quantity": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "item": "clay_ball"
+            }
         },
         "terracotta": {
             "extract": false,
@@ -337,9 +354,46 @@
             "forge": false,
             "green_thumb": false
         },
+        "oak_leaves": {
+            "forge": "leaf_litter",
+            "pulverise": false
+        },
+        "spruce_leaves": {
+            "forge": "leaf_litter",
+            "pulverise": false
+        },
+        "birch_leaves": {
+            "forge": "leaf_litter",
+            "pulverise": false
+        },
+        "jungle_leaves": {
+            "forge": "leaf_litter",
+            "pulverise": false
+        },
+        "acacia_leaves": {
+            "forge": "leaf_litter",
+            "pulverise": false
+        },
+        "dark_oak_leaves": {
+            "forge": "leaf_litter",
+            "pulverise": false
+        },
         "azalea_leaves": {
-            "forge": false,
-            "green_thumb": false
+            "forge": "leaf_litter",
+            "green_thumb": false,
+            "pulverise": false
+        },
+        "mangrove_leaves": {
+            "forge": "leaf_litter",
+            "pulverise": false
+        },
+        "cherry_leaves": {
+            "forge": "leaf_litter",
+            "pulverise": false
+        },
+        "pale_oak_leaves": {
+            "forge": "leaf_litter",
+            "pulverise": false
         },
         "mangrove_roots": {
             "extract": false,
@@ -703,6 +757,56 @@
             "green_thumb": false,
             "bleach": false,
             "pulverise": "cobblestone",
+            "chisel": {
+                "item": false,
+                "bug_tracker_number": 53
+            }
+        },
+        "tuff_slab": {
+            "pulverise": {
+                "item": [
+                    "tuff",
+                    "tuff_slab"
+                ],
+                "bug_tracker_number": 61
+            },
+            "chisel": {
+                "item": false,
+                "bug_tracker_number": 53
+            }
+        },
+        "polished_tuff": {
+            "pulverise": "tuff",
+            "chisel": {
+                "item": false,
+                "bug_tracker_number": 53
+            }
+        },
+        "polished_tuff_slab": {
+            "pulverise": {
+                "item": [
+                    "tuff",
+                    "polished_tuff_slab"
+                ],
+                "bug_tracker_number": 61
+            },
+            "chisel": {
+                "item": false,
+                "bug_tracker_number": 53
+            }
+        },
+        "tuff_bricks": {
+            "pulverise": "tuff",
+            "chisel": false
+        },
+        "tuff_brick_slab": {
+            "pulverise": {
+                "item": [
+                    "tuff",
+                    "polished_tuff_slab"
+                ],
+                "bug_tracker_number": 61
+            },
             "chisel": false
         },
         "chiseled_tuff": {
@@ -898,11 +1002,6 @@
             "forge": false,
             "green_thumb": false,
             "pulverise": "cobbled_deepslate",
-            "chisel": false
-        },
-        "polished_blackstone_bricks": {
-            "forge": "cracked_polished_blackstone_bricks",
-            "green_thumb": false,
             "chisel": false
         },
         "gilded_blackstone": {
@@ -1184,9 +1283,59 @@
             "chisel": false
         },
         "blackstone": {
-            "chisel": false
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": false,
+            "chisel": {
+                "item": false,
+                "bug_tracker_number": 53
+            }
         },
         "polished_blackstone": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": "blackstone",
+            "chisel": {
+                "item": false,
+                "bug_tracker_number": 53
+            }
+        },
+        "polished_blackstone_slab": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "item": [
+                    "blackstone",
+                    "polished_blackstone_slab"
+                ],
+                "bug_tracker_number": 61
+            },
+            "chisel": {
+                "item": false,
+                "bug_tracker_number": 53
+            }
+        },
+        "polished_blackstone_bricks": {
+            "hydrate": false,
+            "forge": "cracked_polished_blackstone_bricks",
+            "green_thumb": false,
+            "pulverise": "blackstone",
+            "chisel": false
+        },
+        "polished_blackstone_brick_slab": {
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": {
+                "item": [
+                    "blackstone",
+                    "polished_blackstone_slab"
+                ],
+                "bug_tracker_number": 61
+            },
+            "chisel": false
+        },
+        "mud": {
+            "pulverise": false,
             "chisel": false
         },
         "packed_mud": {
@@ -1201,8 +1350,20 @@
             "pulverise": "packed_mud",
             "chisel": false
         },
+        "mud_brick_slab": {
+            "pulverise": {
+                "item": [
+                    "packed_mud",
+                    "mud_brick_slab"
+                ],
+                "bug_tracker_number": 61
+            }
+        },
         "moss": {
             "extract": false,
+            "hydrate": false,
+            "forge": false,
+            "pulverise": false,
             "chisel": false
         },
         "cobbled_deepslate": {
@@ -1359,8 +1520,13 @@
             "forge": "smooth_basalt"
         },
         "dried_kelp_block": {
+            "hydrate": false,
+            "forge": false,
             "pulverise": {
                 "quantity": [
+                    1,
+                    2,
+                    3,
                     4,
                     5,
                     6,
@@ -1533,6 +1699,12 @@
         "smithing_table": {
             "hydrate": false,
             "green_thumb": false
+        },
+        "soul_sand": {
+            "pulverise": false
+        },
+        "soul_soil": {
+            "pulverise": false
         }
     }
 }
