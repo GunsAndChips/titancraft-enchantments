@@ -13,11 +13,11 @@ Currently this is a work-in-progress, currently documenting these Tool enchantme
 - Chisel
 
 Philia and Oxidise are planned to be added.
-I do not currently have plans for enchantment types (armour, fishing rods, etc.), but may do so in future.
+I do not currently have plans for other enchantment types (armour, fishing rods, etc.), but may do so in future.
 
 The tool enchantments are documented in this format:
 
-```json
+```jsonc
 {
     "blocks": {
         "block_1": {
@@ -35,7 +35,7 @@ The tool enchantments are documented in this format:
                 "copper_nugget"
             ],
             "pulverise": {
-                "quantity": [// an array of quantities indicates that a random number of items from this list could drop
+                "quantity": [ // an array of quantities indicates that a random number of items from this list could drop
                     1,
                     2,
                     3,
