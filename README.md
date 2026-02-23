@@ -21,21 +21,21 @@ The tool enchantments are documented in this format:
 {
     "blocks": {
         "block_1": {
-            "extract": "grass", // an item name indicates 1 of these items is dropped
-            "hydrate": false, // false indicates that the enchantment has no effect, i.e. the block drops what it would've without the enchantment
-            "forge": "", // "" (an empty string) indicates that this enchantment causes the block to drop *nothing*, where it would normally drop something (e.g. using the pulverise enchantment on a damaged_anvil)
+            "extract": "grass", // an item name - 1 of this item is dropped
+            "hydrate": false, // false - the enchantment has no effect (the block drops what it would've without the enchantment)
+            "forge": "", // an empty string - this enchantment causes the block to drop *nothing*, where it would normally drop something (e.g. using pulverise on a damaged_anvil)
             "green_thumb": {
-                "quantity": 2, // a quantity indicates that more than one item is dropped
+                "quantity": 2, // quantity - more than one item is dropped
                 "item": "nether_star",
-                "bug_tracker_number": 12 // a bug_tracker_number indicates that this drop is likely a bug/unintended, and the number here indicates the number for the related issue in the Titancraft Bug Tracker (https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues)
+                "bug_tracker_number": 12 // bug_tracker_number - this is likely a bug/unintended, and the number here indicates the number for the related issue in the Titancraft Bug Tracker (https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues)
             },
-            "bleach": [ // an array of items indicates that a random item from the list could drop (does not guarrantee all items have an equal chance of dropping)
+            "bleach": [ // array of item names - a random item from the list could drop (does not guarrantee all items have an equal chance of dropping)
                 "iron_nugget",
                 "gold_nugget",
                 "copper_nugget"
             ],
             "pulverise": {
-                "quantity": [ // an array of quantities indicates that a random number of items from this list could drop
+                "quantity": [ // array of quantities - a random number of this item could drop
                     1,
                     2,
                     3,
@@ -45,7 +45,7 @@ The tool enchantments are documented in this format:
             },
         },
         "block_2": {
-            ["..."]
+            // ...
         },
     }
 }
