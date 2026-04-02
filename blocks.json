@@ -1977,11 +1977,32 @@
             "forge": false,
             "chisel": false
         },
+        "brewing_stand": {
+            "bleach": false,
+            "hydrate": false,
+            "green_thumb": false,
+            "pulverise": false,
+            "forge": false,
+            "chisel": false,
+            "extract": false
+        },
         "soul_sand": {
-            "pulverise": false
+            "pulverise": false,
+            "bleach": false,
+            "green_thumb": false,
+            "forge": false,
+            "chisel": false,
+            "extract": false,
+            "hydrate": "soul_soil"
         },
         "soul_soil": {
-            "pulverise": false
+            "pulverise": false,
+            "bleach": false,
+            "green_thumb": false,
+            "forge": "soul_sand",
+            "chisel": false,
+            "extract": false,
+            "hydrate": false
         },
         "shulker_box": {
             "hydrate": false,
@@ -2323,6 +2344,15 @@
             "pulverise": "iron_ingot",
             "forge": false,
             "chisel": false
+        },
+        "torch": {
+            "pulverise": "stick",
+            "bleach": false,
+            "forge": false,
+            "green_thumb": false,
+            "chisel": false,
+            "hydrate": false,
+            "extract": false
         }
     }
 }
