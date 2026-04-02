@@ -887,7 +887,7 @@
             "pulverise": "cobblestone",
             "chisel": {
                 "item": false,
-                "bug_tracker_number": 53
+                "bug_tracker_number": 53 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/53
             }
         },
         "tuff_slab": {
@@ -896,18 +896,18 @@
                     "tuff",
                     "tuff_slab"
                 ],
-                "bug_tracker_number": 61
+                "bug_tracker_number": 61 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/61
             },
             "chisel": {
                 "item": false,
-                "bug_tracker_number": 53
+                "bug_tracker_number": 53 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/53
             }
         },
         "polished_tuff": {
             "pulverise": "tuff",
             "chisel": {
                 "item": false,
-                "bug_tracker_number": 53
+                "bug_tracker_number": 53 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/53
             }
         },
         "polished_tuff_slab": {
@@ -916,11 +916,11 @@
                     "tuff",
                     "polished_tuff_slab"
                 ],
-                "bug_tracker_number": 61
+                "bug_tracker_number": 61 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/61
             },
             "chisel": {
                 "item": false,
-                "bug_tracker_number": 53
+                "bug_tracker_number": 53 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/53
             }
         },
         "tuff_bricks": {
@@ -933,7 +933,7 @@
                     "tuff",
                     "polished_tuff_slab"
                 ],
-                "bug_tracker_number": 61
+                "bug_tracker_number": 61 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/61
             },
             "chisel": false
         },
@@ -1416,7 +1416,7 @@
             "pulverise": false,
             "chisel": {
                 "item": false,
-                "bug_tracker_number": 53
+                "bug_tracker_number": 53 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/53
             }
         },
         "polished_blackstone": {
@@ -1425,7 +1425,7 @@
             "pulverise": "blackstone",
             "chisel": {
                 "item": false,
-                "bug_tracker_number": 53
+                "bug_tracker_number": 53 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/53
             }
         },
         "polished_blackstone_slab": {
@@ -1436,11 +1436,11 @@
                     "blackstone",
                     "polished_blackstone_slab"
                 ],
-                "bug_tracker_number": 61
+                "bug_tracker_number": 61 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/61
             },
             "chisel": {
                 "item": false,
-                "bug_tracker_number": 53
+                "bug_tracker_number": 53 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/53
             }
         },
         "polished_blackstone_bricks": {
@@ -1458,7 +1458,7 @@
                     "blackstone",
                     "polished_blackstone_slab"
                 ],
-                "bug_tracker_number": 61
+                "bug_tracker_number": 61 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/61
             },
             "chisel": false
         },
@@ -1484,7 +1484,7 @@
                     "packed_mud",
                     "mud_brick_slab"
                 ],
-                "bug_tracker_number": 61
+                "bug_tracker_number": 61 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/61
             }
         },
         "moss": {
@@ -2309,7 +2309,7 @@
                     5,
                     6
                 ],
-                "bug_tracker_number": 64
+                "bug_tracker_number": 64 // https://github.com/Titancraft-Datapacking/Titancraft-BugTracker/issues/64
             },
             "forge": false,
             "chisel": false
