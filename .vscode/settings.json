@@ -1,0 +1,5 @@
+{
+    "sortJSON.orderUnderride": [
+        "bug_tracker_number"
+    ]
+}
